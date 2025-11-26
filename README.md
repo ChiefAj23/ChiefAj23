@@ -1,23 +1,24 @@
 ![abhijeet](https://github.com/Abhijeet2396/Abhijeet2396/blob/main/assets/images/Banner.gif)
 # 👋 Hey, I'm Abhijeet Solanki
 
-**Senior SRE / AI Engineer • Adversarial ML Researcher • Builder of Practical AI Systems**
+**Software Engineer (SRE / AI / ML) • Adversarial ML Researcher • Builder of Practical AI Systems**
 
 I design, break, and harden intelligent systems.
 
 - 🧠 ML / AI: adversarial robustness, XAI, anomaly detection, LLM-powered systems  
 - 🚦 Autonomous systems: securing perception (camera, LiDAR, fusion) against real-world attacks  
 - ☁️ Cloud & SRE: Azure, Kubernetes/AKS, containers, CI/CD, incident response  
-- 🛠 Engineering: Python, C#, FastAPI, React/TS, platform & tooling work
+- 🛠 Engineering: Python, C#, FastAPI, React/TS, platform & tooling work  
 
-📍 Nashville, TN · Open to **SRE / Platform / ML Engineer / Backend** roles.
+📍 Based in the Nashville, TN area · **4+ years** across SRE, backend, and applied ML.  
+💼 Currently: working as a **Software Engineer on SRE/Platform-style problems** (Azure, AKS, automation, reliability).
 
 ---
 
 ## ⚡ TL;DR for recruiters
 
 - 10+ peer-reviewed **IEEE & conference publications** across AV security, XAI, and robust perception  
-- Real-world **SRE & cloud** experience on Azure + Kubernetes, automation, and production incidents  
+- Real-world **cloud & SRE** experience on Azure + Kubernetes, automation, and production incidents  
 - Built and shipped **full-stack AI products** (FastAPI + React + ML models on edge and cloud)  
 - 2× **1st Place Research Awards** (ACM & TTU Research Day) + **IEEE-HKN & Tau Beta Pi** honors  
 
