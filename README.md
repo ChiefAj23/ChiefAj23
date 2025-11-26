@@ -160,12 +160,10 @@ Ongoing research explores the **security and robustness of camera + LiDAR fusion
 
 ---
 
-## 📊 GitHub Statistics
+## 📊 GitHub Snapshot
 
-> These cards are auto-generated; they’ll grow as I continue open-sourcing more of my work.
-
-![Abhijeet's GitHub stats](https://github-readme-stats.vercel.app/api?username=Abhijeet2396&show_icons=true&hide_border=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Abhijeet2396&layout=compact&hide_border=true)
+![GitHub followers](https://img.shields.io/github/followers/Abhijeet2396?style=social)
+![GitHub stars](https://img.shields.io/github/stars/Abhijeet2396?style=social)
 
 ---
 
