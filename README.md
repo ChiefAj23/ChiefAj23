@@ -1,73 +1,185 @@
 ![abhijeet](https://github.com/Abhijeet2396/Abhijeet2396/blob/main/assets/images/Banner.gif)
+# 👋 Hey, I'm Abhijeet Solanki
 
-[1.1]: https://github.com/Abhijeet2396/Abhijeet2396/blob/master/assets/icons/linkedin_c.png "linkedin"
-[2.1]: https://github.com/Abhijeet2396/Abhijeet2396/blob/master/assets/icons/email.png "mail"
-[3.1]: https://github.com/Abhijeet2396/Abhijeet2396/blob/master/assets/icons/medium39.png "medium"
-[1]: https://www.linkedin.com/in/abhijeet-solanki
-[2]: mailto:abhijeet.solanki@outlook.com
-[3]: https://medium.com/@kritikseth
+**Senior SRE / AI Engineer • Adversarial ML Researcher • Builder of Practical AI Systems**
 
-Hi, my name is **Abhijeet Solanki**, and I am an **Artificial Intelligence Enthusiast** based in Nashville, Tennessee. I am currently working as Software Engineer in a Deloitte. I completed my Bachelor in Computer Engineering from Tenessee Technological University in the year 2020.
+I design, break, and harden intelligent systems.
 
-My portfolio is a representation of all that I have learned and accomplished in my bachelor's. The articles and projects you will see in this portfolio show how my knowledge and experience have evolved over time.
+- 🧠 ML / AI: adversarial robustness, XAI, anomaly detection, LLM-powered systems  
+- 🚦 Autonomous systems: securing perception (camera, LiDAR, fusion) against real-world attacks  
+- ☁️ Cloud & SRE: Azure, Kubernetes/AKS, containers, CI/CD, incident response  
+- 🛠 Engineering: Python, C#, FastAPI, React/TS, platform & tooling work
 
-I am trying to build my competency in Artificial Intelligence and Machine Learning.
+📍 Nashville, TN · Open to **SRE / Platform / ML Engineer / Backend** roles.
 
-Connect with me:
+---
 
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/abhijeet-solanki)](https://www.linkedin.com/in/abhijeet-solanki)
-[![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:shutterfly22720@gmail.com)](mailto:shutterfly22720@gmail.com)
-[![Medium Badge](https://img.shields.io/badge/-Medium-000000?style=flat-square&labelColor=000000&logo=medium&logoColor=white&link=https://medium.com/@abhijeet.solanki)](https://medium.com/@abhijeet.solanki)
+## ⚡ TL;DR for recruiters
 
-<!-- ---- -->
+- 10+ peer-reviewed **IEEE & conference publications** across AV security, XAI, and robust perception  
+- Real-world **SRE & cloud** experience on Azure + Kubernetes, automation, and production incidents  
+- Built and shipped **full-stack AI products** (FastAPI + React + ML models on edge and cloud)  
+- 2× **1st Place Research Awards** (ACM & TTU Research Day) + **IEEE-HKN & Tau Beta Pi** honors  
 
-## Skills I have
+If you need someone who can **ship code**, **debug infra**, *and* **read/write papers**, that’s literally my lane.
 
-- Python
-- Machine Learning
-- C++
-- SQL, NoSQL, MySQL
-- Cloud Computing (Certified AWS Cloud Practioner)
-- VHDL
-- TensorFlow
+---
 
-## Experience
-> Software Engineer - [**Deloitte**](https://www2.deloitte.com/us/en.html)
+## 🔗 Quick Links
 
-> Software Engineer - [**Protech Solutions**](https://protechsolutions.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-abhijeetsolanki.com-000?style=flat&logo=google-chrome)](https://www.abhijeetsolanki.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abhijeet%20Solanki-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/abhijeet-solanki)
+[![Email](https://img.shields.io/badge/Email-abhijeet.solanki%40outlook.com-D14836?style=flat&logo=microsoft-outlook&logoColor=white)](mailto:abhijeet.solanki@outlook.com)
+[![Medium](https://img.shields.io/badge/Medium-@abhijeet.solanki-000000?style=flat&logo=medium)](https://abhijeet-solanki.medium.com)
 
-> Software Engineer - [**MidTn.Tech**](https://midtn.tech)
+---
 
-> Technology Assistant - [**James E. Walker Library**](https://library.mtsu.edu/home)
+## 🧩 What I’m building
 
-## Articles I have written
+### 🔊 AI Voice Compliance Auditor
 
-- [What Will Your Plate Look Like in 2050?](https://medium.com/professionally-handicapped/what-will-your-plate-look-like-in-2050-f612a64a98fd?source=friends_link&sk=2fece92dad33a2e1e71dc7e729a77c79)
+A full-stack app (FastAPI + Python + React + TS) that turns raw voice recordings into **actionable compliance & coaching insights**:
 
-- [How to Start with Data Science in 2020?](https://abhijeet-solanki.medium.com/how-to-start-with-data-science-in-2020-460906bbc4b9?sk=a65738437106a20ed4703db777df844e)
+- Scores every conversation on **compliance, tone, and quality (0–100)**  
+- Detects **toxicity, interruptions, missing disclosures, wrong language usage**  
+- Extracts **intent, topics, action items, and summaries** for busy managers  
+- Triggers **alerts via email + webhooks** (Slack/Teams, etc.)  
+- Uses **SHAP** for **explainability**, so teams can see *why* a call was flagged  
+- Supports **multiple languages** for global ops teams  
 
-## Publication & Poster
+> Designed for Ops / CX / Compliance leaders who want to move beyond random spot-checks and review *every* conversation intelligently.
 
-- ["Protecting Electronic Health Records in Transit and at Rest](https://ieeexplore.ieee.org/abstract/document/9183319?casa_token=394wZstRSqEAAAAA:gZ0G3obHwAK9lgZHH-0nDxv5JeuTKL1DLI4AtUoUaN6so7TidVqSyaaSpQJ7IJPxfM-aV1IQNw)
+---
 
-- ["Soil Nutrient Identification Device (SNID)"](https://drive.google.com/file/d/1Gp-ljnLVQqDXXSvFictxU8UKX8FwzB5l/view)
+## 🔬 Research Overview
 
-## Projects
+My research spans **machine learning (ML), large language models (LLMs), and autonomous agent systems**, with a core focus on the intersection of:
 
-- Comming Soon
+- Perception systems (camera, LiDAR, sensor fusion)  
+- Explainable AI (XAI)  
+- Adversarial machine learning & robustness  
 
-## Connect with me
+I work on enabling intelligent systems to **reliably perceive and interpret complex environments**, while developing **strategies to secure them against real-world threats**.
 
-I am currently looking for new opportunities. My inbox is always open, whether you have a question or just want to say hi, you can always connect with me.
+Ongoing research explores the **security and robustness of camera + LiDAR fusion models** in autonomous vehicles and **edge-deployed AI systems**. Notable contributions include:
 
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/abhijeet-solanki)](https://www.linkedin.com/in/abhijeet-solanki)
-[![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:shutterfly22720@gmail.com)](mailto:shutterfly22720@gmail.com)
-[![Medium Badge](https://img.shields.io/badge/-Medium-000000?style=flat-square&labelColor=000000&logo=medium&logoColor=white&link=https://medium.com/@abhijeet.solanki)](https://medium.com/@abhijeet.solanki)
+- Laser-based adversarial **attack & detection frameworks**  
+- Real-time **anomaly and attack detection** for AV perception  
+- **Lightweight defense mechanisms** optimized for embedded platforms (e.g., NVIDIA Jetson)
 
-<!-- section - social media icons -->
+> Some submitted papers are not listed due to the double-blind review process and will appear after acceptance.
 
-## GitHub Statistics
+---
 
-<p align='center'>
-  <img align='center' src="https://visitor-badge.glitch.me/badge?page_id=Abhijeet2396.visitor-badge">
-<p/>
+## 🧪 Research Highlights (Selected)
+
+- **CBMS 2020** – *Protecting Electronic Health Records in Transit and at Rest*  
+- **ISVLSI 2024** – *Investigate the Effects of Laser Attack on Intelligence of the AV Perception*  
+- **SoutheastCon 2025** – *ReAL: Machine Learning Detection of Reflective Attacks Against Lidarometry*  
+- **SoutheastCon 2025** – *GNAPing On the Job: Attacking and Defending Facial Detection on Edge Devices*  
+- **SoutheastCon 2025** – *Towards Machine Learning Based Fingerprinting of Ultrasonic Sensors*  
+- **ISCAS 2025** – *Mitigation of Camouflaged Adversarial Attacks in Autonomous Vehicles — A Case Study Using CARLA Simulator*  
+- **FLAIRS 2025** – *Towards Trustworthy AI: Analyzing Model Uncertainty through MC Dropout and Noise Injection*  
+- **IEEE Access 2025** – *Survey of Navigational Perception Sensors’ Security in Autonomous Vehicles*  
+- **IEEE MWSCAS 2025 (Accepted)** – *Realistic GPS Spoofing Via Customized CARLA GPS Navigation and Controller Systems*  
+- **IEEE Access 2025 (Under Review)** – *Blinded by the Beam: A Unified Real-Time Defense Against Laser-Based Attacks on Navigational Perception of Autonomous Vehicles*  
+- **IEEE Access 2025 (Under Review)** – *Towards Trustworthy AI: Real-Time Uncertainty Monitoring and Adversarial Detection*
+
+---
+
+## 📄 Publications & Posters (sample)
+
+- 🏥 **Protecting Electronic Health Records in Transit and at Rest**  
+  Presented at CBMS 2020. Securing EHRs both in transit and at rest.  
+  👉 [View on IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/9183319)
+
+- 🌱 **Soil Nutrient Identification Device (SNID)**  
+  Hardware + software system for soil nutrient detection.  
+  👉 [Poster](https://drive.google.com/file/d/1Gp-ljnLVQqDXXSvFictxU8UKX8FwzB5l/view)
+
+> More publications (AV security, RAID, GPS spoofing, LiDAR robustness, uncertainty estimation, etc.) are listed on my website and academic CV.
+
+---
+
+## 🏆 Achievements & Honors
+
+- 🥇 **2× 1st Place Research Awards** – ACM & TTU Research Day  
+- 🧪 **Open-Source Contributor** – ML, DevOps, and tools projects  
+- ☁️ **Cloud Certified** – AWS, Azure, MongoDB  
+- 🎓 **IEEE-HKN Honor Society** (Top 10%)  
+- 🎓 **Tau Beta Pi Engineering Honor Society** (Top 20%)
+
+---
+
+## 🛠 Tech Stack
+
+**Languages & Backend**
+
+- Python, C#, C++  
+- FastAPI, Flask, .NET  
+- REST APIs, microservices, automation scripts
+
+**ML / AI**
+
+- PyTorch, TensorFlow, Keras  
+- Computer Vision, adversarial ML, XAI (Grad-CAM, SHAP)  
+- Anomaly detection, one-class classification, uncertainty estimation  
+- Edge AI on **NVIDIA Jetson**
+
+**Cloud, SRE & DevOps**
+
+- Azure (AKS, VMs, networking, storage)  
+- Docker, Kubernetes, Helm  
+- CI/CD (GitHub Actions, Azure DevOps)  
+- Monitoring, logging, incident response, infra automation
+
+**Data & Storage**
+
+- SQL / NoSQL, MySQL  
+- ETL, reporting, analytics
+
+**Tooling**
+
+- Linux, Git, VS Code, Visual Studio, Jupyter  
+
+---
+
+## ✍️ Selected Writing
+
+- 🧭 **Detecting the Odd One Out: A Guide to One-Class Classification**  
+  Practical guide to anomaly detection and one-class classifiers.  
+  👉 [Read on Medium](https://abhijeet-solanki.medium.com/detecting-the-odd-one-out-a-guide-to-one-class-classification-cf9e22ab9d4a)
+
+- 🚀 **How to Start with Data Science in 2020?**  
+  Roadmap for newcomers to data science and ML.  
+  👉 [Read on Medium](https://abhijeet-solanki.medium.com/how-to-start-with-data-science-in-2020-460906bbc4b9)
+
+- 🌍 **What Will Your Plate Look Like in 2050?**  
+  Narrative exploration of food security & future agriculture.  
+  👉 [Read on Medium](https://abhijeet-solanki.medium.com/what-will-your-plate-look-like-in-2050-f612a64a98fd)
+
+---
+
+## 📊 GitHub Statistics
+
+> These cards are auto-generated; they’ll grow as I continue open-sourcing more of my work.
+
+![Abhijeet's GitHub stats](https://github-readme-stats.vercel.app/api?username=Abhijeet2396&show_icons=true&hide_border=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Abhijeet2396&layout=compact&hide_border=true)
+
+---
+
+## 🤝 Let’s connect
+
+I’m actively looking for roles where I can:
+
+- Build **reliable cloud platforms** (SRE / Platform / DevOps)  
+- Apply **ML & AI** to real products (robust perception, monitoring, safety, compliance)  
+- Bridge the gap between **research prototypes** and **production systems**
+
+If you’re hiring or want to collaborate, reach out anytime:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abhijeet%20Solanki-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/abhijeet-solanki)
+[![Email](https://img.shields.io/badge/Email-abhijeet.solanki%40outlook.com-D14836?style=flat&logo=microsoft-outlook&logoColor=white)](mailto:abhijeet.solanki@outlook.com)
+[![Medium](https://img.shields.io/badge/Medium-@abhijeet.solanki-000000?style=flat&logo=medium)](https://abhijeet-solanki.medium.com)
+
