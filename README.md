@@ -75,14 +75,14 @@ Ongoing research explores the **security and robustness of camera + LiDAR fusion
 ## 🧪 Research Highlights (Selected)
 
 - **CBMS 2020** – *Protecting Electronic Health Records in Transit and at Rest*  
-- **ISVLSI 2024** – *Investigate the Effects of Laser Attack on Intelligence of the AV Perception*  
+- **ISVLSI 2024** – *Investigate the Effects of Laser Attack on the Intelligence of the AV Perception*  
 - **SoutheastCon 2025** – *ReAL: Machine Learning Detection of Reflective Attacks Against Lidarometry*  
 - **SoutheastCon 2025** – *GNAPing On the Job: Attacking and Defending Facial Detection on Edge Devices*  
 - **SoutheastCon 2025** – *Towards Machine Learning Based Fingerprinting of Ultrasonic Sensors*  
 - **ISCAS 2025** – *Mitigation of Camouflaged Adversarial Attacks in Autonomous Vehicles — A Case Study Using CARLA Simulator*  
 - **FLAIRS 2025** – *Towards Trustworthy AI: Analyzing Model Uncertainty through MC Dropout and Noise Injection*  
 - **IEEE Access 2025** – *Survey of Navigational Perception Sensors’ Security in Autonomous Vehicles*  
-- **IEEE MWSCAS 2025 (Accepted)** – *Realistic GPS Spoofing Via Customized CARLA GPS Navigation and Controller Systems*  
+- **IEEE MWSCAS 2025** – *Realistic GPS Spoofing Via Customized CARLA GPS Navigation and Controller Systems*  
 - **IEEE Access 2025 (Under Review)** – *Blinded by the Beam: A Unified Real-Time Defense Against Laser-Based Attacks on Navigational Perception of Autonomous Vehicles*  
 - **IEEE Access 2025 (Under Review)** – *Towards Trustworthy AI: Real-Time Uncertainty Monitoring and Adversarial Detection*
 
