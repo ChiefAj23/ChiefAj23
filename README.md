@@ -83,8 +83,8 @@ Ongoing research explores the **security and robustness of camera + LiDAR fusion
 - **FLAIRS 2025** – *Towards Trustworthy AI: Analyzing Model Uncertainty through MC Dropout and Noise Injection*  
 - **IEEE Access 2025** – *Survey of Navigational Perception Sensors’ Security in Autonomous Vehicles*  
 - **IEEE MWSCAS 2025** – *Realistic GPS Spoofing Via Customized CARLA GPS Navigation and Controller Systems*  
-- **IEEE Access 2025 (Under Review)** – *Blinded by the Beam: A Unified Real-Time Defense Against Laser-Based Attacks on Navigational Perception of Autonomous Vehicles*  
-- **IEEE Access 2025 (Under Review)** – *Towards Trustworthy AI: Real-Time Uncertainty Monitoring and Adversarial Detection*
+- **IEEE Access 2026** – *Blinded by the Beam: A Unified Real-Time Defense Against Laser-Based Attacks on Navigational Perception of Autonomous Vehicles*  
+- **Springer Nature CS 2026 (Under Review)** – *Towards Trustworthy AI: Real-Time Uncertainty Monitoring and Adversarial Detection*
 
 ---
 
