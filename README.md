@@ -141,8 +141,7 @@ Quantization (PTQ/QAT) · pruning · edge inference · RAG · function calling �
 
 <div align="center">
 
-![Abhijeet's GitHub stats](https://github-readme-stats.vercel.app/api?username=ChiefAj23&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ChiefAj23&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
+[![Contribution graph](https://ghchart.rshah.org/1f6feb/ChiefAj23)](https://github.com/ChiefAj23)
 
 </div>
 
