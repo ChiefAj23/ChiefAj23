@@ -1,4 +1,3 @@
-![abhijeet](assets/images/Banner.gif)
 # 👋 Hey, I'm Abhijeet Solanki
 
 **AI Engineer • Edge AI + GenAI • I make models fast on small devices and useful in production**
