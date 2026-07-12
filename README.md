@@ -1,6 +1,17 @@
+<div align="center">
+
 # 👋 Hey, I'm Abhijeet Solanki
 
-**AI Engineer • Edge AI + GenAI • I make models fast on small devices and useful in production**
+### AI Engineer · Edge AI + GenAI · I make models fast on small devices and useful in production
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-abhijeetsolanki.com-1f6feb?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.abhijeetsolanki.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abhijeet-solanki)
+[![Google Scholar](https://img.shields.io/badge/Scholar-11%20Publications-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?view_op=search_authors&mauthors=Abhijeet+Solanki)
+[![Email](https://img.shields.io/badge/Email-Reach%20out-D14836?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:abhijeet.solanki@outlook.com)
+
+![Profile views](https://komarev.com/ghpvc/?username=ChiefAj23&label=Profile%20views&color=1f6feb&style=flat)
+
+</div>
 
 I like making AI work where it is hardest: on edge devices with tight latency, memory, and power budgets, and in production where demos do not count.
 
@@ -91,19 +102,49 @@ Full list on [Google Scholar](https://scholar.google.com/citations?view_op=searc
 
 ## 🛠 Tech Stack
 
-**ML / AI**
-- PyTorch, TensorFlow, ONNX Runtime, TensorRT, CUDA
-- Quantization (PTQ/QAT), pruning, edge inference on NVIDIA Jetson (Orin/Nano)
-- LLMs: LangChain, Azure OpenAI, vLLM, RAG, function calling, agents
-- Computer vision, XAI (Grad-CAM, SHAP), anomaly detection, uncertainty estimation
+**AI / ML**
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
+![ONNX](https://img.shields.io/badge/ONNX-005CED?style=flat&logo=onnx&logoColor=white)
+![TensorRT](https://img.shields.io/badge/TensorRT-76B900?style=flat&logo=nvidia&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat&logo=nvidia&logoColor=white)
+![NVIDIA Jetson](https://img.shields.io/badge/NVIDIA%20Jetson-76B900?style=flat&logo=nvidia&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
+![vLLM](https://img.shields.io/badge/vLLM-000000?style=flat)
+![OpenAI](https://img.shields.io/badge/Azure%20OpenAI-412991?style=flat&logo=openai&logoColor=white)
+
+Quantization (PTQ/QAT) · pruning · edge inference · RAG · function calling · agents · XAI (Grad-CAM, SHAP) · anomaly detection
 
 **Languages & Backend**
-- Python, C++, C#
-- FastAPI, Flask, .NET, REST APIs, microservices
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet&logoColor=white)
 
 **Cloud & DevOps**
-- Azure (AKS, VMs, networking), Docker, Kubernetes, Helm
-- CI/CD (GitHub Actions, Azure DevOps), monitoring, incident automation
+
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+
+---
+
+## 📊 GitHub Activity
+
+<div align="center">
+
+![Abhijeet's GitHub stats](https://github-readme-stats.vercel.app/api?username=ChiefAj23&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ChiefAj23&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
+
+</div>
 
 ---
 
