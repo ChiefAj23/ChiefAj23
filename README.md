@@ -1,28 +1,28 @@
-![abhijeet](https://github.com/Abhijeet2396/Abhijeet2396/blob/main/assets/images/Banner.gif)
+![abhijeet](assets/images/Banner.gif)
 # 👋 Hey, I'm Abhijeet Solanki
 
-**Software Engineer (SRE / AI / ML) • Adversarial ML Researcher • Builder of Practical AI Systems**
+**AI Engineer • Edge AI + GenAI • I make models fast on small devices and useful in production**
 
-I design, break, and harden intelligent systems.
+I like making AI work where it is hardest: on edge devices with tight latency, memory, and power budgets, and in production where demos do not count.
 
-- 🧠 ML / AI: adversarial robustness, XAI, anomaly detection, LLM-powered systems  
-- 🚦 Autonomous systems: securing perception (camera, LiDAR, fusion) against real-world attacks  
-- ☁️ Cloud & SRE: Azure, Kubernetes/AKS, containers, CI/CD, incident response  
-- 🛠 Engineering: Python, C#, FastAPI, React/TS, platform & tooling work  
+- ⚡ Edge AI: real-time perception on **NVIDIA Jetson** (TensorRT, ONNX Runtime, quantization, pruning)
+- 🤖 GenAI: **LLM agents, RAG pipelines, function calling** running in production (Azure OpenAI, LangChain, vLLM)
+- 🚗 Autonomous systems: camera + LiDAR perception that stays accurate when the physical world misbehaves
+- 🛠 Engineering: Python, C++, C#, FastAPI, React/TS, Docker/Kubernetes, CI/CD
 
-📍 Based in the Nashville, TN area · **4+ years** across SRE, backend, and applied ML.  
-💼 Currently: working as a **Software Engineer on SRE/Platform-style problems** (Azure, AKS, automation, reliability).
+📍 Nashville, TN · open to relocation · **4+ years** across applied ML, backend, and platform work.
+💼 Currently: Software Engineer at **Arctera**, shipping GenAI incident tooling on Azure + AKS.
 
 ---
 
 ## ⚡ TL;DR for recruiters
 
-- 10+ peer-reviewed **IEEE & conference publications** across AV security, XAI, and robust perception  
-- Real-world **cloud & SRE** experience on Azure + Kubernetes, automation, and production incidents  
-- Built and shipped **full-stack AI products** (FastAPI + React + ML models on edge and cloud)  
-- 2× **1st Place Research Awards** (ACM & TTU Research Day) + **IEEE-HKN & Tau Beta Pi** honors  
+- **11 peer-reviewed IEEE publications** (5 first-author, including **2 IEEE Access journal articles**) on robust perception and edge AI, with 4 more under review
+- Deployed real-time models on **Jetson-class hardware**: 72% → 93% detection accuracy within the same compute budget
+- Built and shipped **full-stack AI products** (FastAPI + React + ML on edge and cloud)
+- 2× **1st Place Research Awards** (ACM Mid-Southeast, TTU Research Day) + **IEEE-HKN** and **Tau Beta Pi** honors
 
-If you need someone who can **ship code**, **debug infra**, *and* **read/write papers**, that’s literally my lane.
+If you need someone who can **ship code**, **squeeze models onto small hardware**, *and* **read/write papers**, that is literally my lane.
 
 ---
 
@@ -35,150 +35,96 @@ If you need someone who can **ship code**, **debug infra**, *and* **read/write p
 
 ---
 
-## 🧩 What I’m building
+## 🧩 What I'm building
 
-### 🔊 AI Voice Compliance Auditor
+### 🚘 [VLM Object Detection Baseline on BDD100K](https://github.com/ChiefAj23/bdd100k-vlm-baseline)
+How well do vision-language models actually *detect* in driving scenes, with zero fine-tuning? An honest, reproducible mAP benchmark for VLMs (Qwen2.5-VL) on the BDD100K dataset: Dockerized two-service pipeline, preflight checks, full metric breakdowns. Spoiler: zero-shot VLM detection is much weaker than people assume, and now there is a repeatable baseline that proves it.
 
-A full-stack app (FastAPI + Python + React + TS) that turns raw voice recordings into **actionable compliance & coaching insights**:
+### 🛑 [Adversarial Patch Removal for Stop Signs](https://github.com/ChiefAj23/qcar-patch-removal)
+A printed sticker on a stop sign can make a detector miss it in over half of frames. This generative restoration model removes the patch before detection on our QCar2 physical testbed, raising detection from **48% → 76%** with zero regressions on clean signs. Perception robustness you can bolt onto an existing stack.
 
-- Scores every conversation on **compliance, tone, and quality (0–100)**  
-- Detects **toxicity, interruptions, missing disclosures, wrong language usage**  
-- Extracts **intent, topics, action items, and summaries** for busy managers  
-- Triggers **alerts via email + webhooks** (Slack/Teams, etc.)  
-- Uses **SHAP** for **explainability**, so teams can see *why* a call was flagged  
-- Supports **multiple languages** for global ops teams  
+### 🔊 [AI Voice Compliance Auditor](https://github.com/ChiefAj23/AI-Voice-Compliance-Auditor)
+Full-stack GenAI app (FastAPI + React/TS) that turns raw call recordings into compliance and coaching insights: 0-100 scoring, toxicity and missing-disclosure detection, intent/topic extraction, email/webhook alerts, and **SHAP explainability** so reviewers can see *why* a call was flagged.
 
-> Designed for Ops / CX / Compliance leaders who want to move beyond random spot-checks and review *every* conversation intelligently.
+### 🛰 Published research code
+- [ReAL: LiDAR Reflective Attack Detection](https://github.com/ChiefAj23/ReAL-ReflectiveAttack-Detection-Lidar) (IEEE SoutheastCon 2025)
+- [GNAP: Attacking and Defending Facial Detection on Edge Devices](https://github.com/ChiefAj23/GNAPing-On-the-Job) (IEEE SoutheastCon 2025)
 
 ---
 
 ## 🔬 Research Overview
 
-My research spans **machine learning (ML), large language models (LLMs), and autonomous agent systems**, with a core focus on the intersection of:
+My research puts deep learning on **resource-constrained edge hardware** and keeps it reliable in the physical world:
 
-- Perception systems (camera, LiDAR, sensor fusion)  
-- Explainable AI (XAI)  
-- Adversarial machine learning & robustness  
+- Real-time perception (camera, LiDAR, sensor fusion) under strict latency, memory, and power budgets
+- Robustness of edge-deployed models against real-world interference, including laser and adversarial attacks
+- Explainable AI (XAI) and uncertainty estimation for trustworthy deployment
 
-I work on enabling intelligent systems to **reliably perceive and interpret complex environments**, while developing **strategies to secure them against real-world threats**.
-
-Ongoing research explores the **security and robustness of camera + LiDAR fusion models** in autonomous vehicles and **edge-deployed AI systems**. Notable contributions include:
-
-- Laser-based adversarial **attack & detection frameworks**  
-- Real-time **anomaly and attack detection** for AV perception  
-- **Lightweight defense mechanisms** optimized for embedded platforms (e.g., NVIDIA Jetson)
-
-> Some submitted papers are not listed due to the double-blind review process and will appear after acceptance.
+> Some submitted papers are not listed due to double-blind review and will appear after acceptance.
 
 ---
 
 ## 🧪 Research Highlights (Selected)
 
-- **CBMS 2020** – *Protecting Electronic Health Records in Transit and at Rest*  
-- **ISVLSI 2024** – *Investigate the Effects of Laser Attack on the Intelligence of the AV Perception*  
-- **SoutheastCon 2025** – *ReAL: Machine Learning Detection of Reflective Attacks Against Lidarometry*  
-- **SoutheastCon 2025** – *GNAPing On the Job: Attacking and Defending Facial Detection on Edge Devices*  
-- **SoutheastCon 2025** – *Towards Machine Learning Based Fingerprinting of Ultrasonic Sensors*  
-- **ISCAS 2025** – *Mitigation of Camouflaged Adversarial Attacks in Autonomous Vehicles — A Case Study Using CARLA Simulator*  
-- **FLAIRS 2025** – *Towards Trustworthy AI: Analyzing Model Uncertainty through MC Dropout and Noise Injection*  
-- **IEEE Access 2025** – *Survey of Navigational Perception Sensors’ Security in Autonomous Vehicles*  
-- **IEEE MWSCAS 2025** – *Realistic GPS Spoofing Via Customized CARLA GPS Navigation and Controller Systems*  
-- **IEEE Access 2026** – *Blinded by the Beam: A Unified Real-Time Defense Against Laser-Based Attacks on Navigational Perception of Autonomous Vehicles*  
-- **Springer Nature CS 2026 (Under Review)** – *Towards Trustworthy AI: Real-Time Uncertainty Monitoring and Adversarial Detection*
+- **IEEE Access 2026** – *Blinded by the Beam: A Unified Real-Time Defense Against Laser-Based Attacks on Navigational Perception of Autonomous Vehicles*
+- **IEEE Access 2025** – *Survey of Navigational Perception Sensors' Security in Autonomous Vehicles*
+- **ISVLSI 2024** – *Investigate the Effects of Laser Attack on the Intelligence of the AV Perception*
+- **SoutheastCon 2025** – *ReAL: Machine Learning Detection of Reflective Attacks Against Lidarometry*
+- **SoutheastCon 2025** – *GNAPing On the Job: Attacking and Defending Facial Detection on Edge Devices*
+- **SoutheastCon 2025** – *Towards Machine Learning Based Fingerprinting of Ultrasonic Sensors*
+- **ISCAS 2025** – *Mitigation of Camouflaged Adversarial Attacks in Autonomous Vehicles: A Case Study Using CARLA Simulator*
+- **MWSCAS 2025** – *Realistic GPS Spoofing Via Customized CARLA GPS Navigation and Controller Systems*
+- **IFAC MECC 2025** – *Investigating Adversarial Image Attacks in a Sensor Fusion Framework Using a Scaled Autonomous Vehicle Testbed*
+- **FLAIRS 2025** – *Towards Trustworthy AI: Analyzing Model Uncertainty through MC Dropout and Noise Injection*
+- **CBMS 2020** – *Protecting Electronic Health Records in Transit and at Rest*
 
----
-
-## 📄 Publications & Posters (sample)
-
-- 🏥 **Protecting Electronic Health Records in Transit and at Rest**  
-  Presented at CBMS 2020. Securing EHRs both in transit and at rest.  
-  👉 [View on IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/9183319)
-
-- 🌱 **Soil Nutrient Identification Device (SNID)**  
-  Hardware + software system for soil nutrient detection.  
-  👉 [Poster](https://drive.google.com/file/d/1Gp-ljnLVQqDXXSvFictxU8UKX8FwzB5l/view)
-
-> More publications (AV security, RAID, GPS spoofing, LiDAR robustness, uncertainty estimation, etc.) are listed on my website and academic CV.
+Full list on [Google Scholar](https://scholar.google.com/citations?view_op=search_authors&mauthors=Abhijeet+Solanki) and my [website](https://www.abhijeetsolanki.com/).
 
 ---
 
 ## 🏆 Achievements & Honors
 
-- 🥇 **2× 1st Place Research Awards** – ACM & TTU Research Day  
-- 🧪 **Open-Source Contributor** – ML, DevOps, and tools projects  
-- ☁️ **Cloud Certified** – AWS, Azure, MongoDB  
-- 🎓 **IEEE-HKN Honor Society** (Top 10%)  
-- 🎓 **Tau Beta Pi Engineering Honor Society** (Top 20%)
+- 🥇 **2× 1st Place Research Awards** – ACM Mid-Southeast (#1 of 38) and TTU Research & Inquiry Day (#1 of 220)
+- 🎓 **IEEE-HKN Honor Society** (Top 10%) · **Tau Beta Pi** Engineering Honor Society
+- 📝 Reviewer, **IEEE DCAS 2026**
 
 ---
 
 ## 🛠 Tech Stack
 
-**Languages & Backend**
-
-- Python, C#, C++  
-- FastAPI, Flask, .NET  
-- REST APIs, microservices, automation scripts
-
 **ML / AI**
+- PyTorch, TensorFlow, ONNX Runtime, TensorRT, CUDA
+- Quantization (PTQ/QAT), pruning, edge inference on NVIDIA Jetson (Orin/Nano)
+- LLMs: LangChain, Azure OpenAI, vLLM, RAG, function calling, agents
+- Computer vision, XAI (Grad-CAM, SHAP), anomaly detection, uncertainty estimation
 
-- PyTorch, TensorFlow, Keras  
-- Computer Vision, adversarial ML, XAI (Grad-CAM, SHAP)  
-- Anomaly detection, one-class classification, uncertainty estimation  
-- Edge AI on **NVIDIA Jetson**
+**Languages & Backend**
+- Python, C++, C#
+- FastAPI, Flask, .NET, REST APIs, microservices
 
-**Cloud, SRE & DevOps**
-
-- Azure (AKS, VMs, networking, storage)  
-- Docker, Kubernetes, Helm  
-- CI/CD (GitHub Actions, Azure DevOps)  
-- Monitoring, logging, incident response, infra automation
-
-**Data & Storage**
-
-- SQL / NoSQL, MySQL  
-- ETL, reporting, analytics
-
-**Tooling**
-
-- Linux, Git, VS Code, Visual Studio, Jupyter  
+**Cloud & DevOps**
+- Azure (AKS, VMs, networking), Docker, Kubernetes, Helm
+- CI/CD (GitHub Actions, Azure DevOps), monitoring, incident automation
 
 ---
 
 ## ✍️ Selected Writing
 
-- 🧭 **Detecting the Odd One Out: A Guide to One-Class Classification**  
-  Practical guide to anomaly detection and one-class classifiers.  
+- 🧭 **Detecting the Odd One Out: A Guide to One-Class Classification**
   👉 [Read on Medium](https://abhijeet-solanki.medium.com/detecting-the-odd-one-out-a-guide-to-one-class-classification-cf9e22ab9d4a)
 
-- 🚀 **How to Start with Data Science in 2020?**  
-  Roadmap for newcomers to data science and ML.  
-  👉 [Read on Medium](https://abhijeet-solanki.medium.com/how-to-start-with-data-science-in-2020-460906bbc4b9)
-
-- 🌍 **What Will Your Plate Look Like in 2050?**  
-  Narrative exploration of food security & future agriculture.  
-  👉 [Read on Medium](https://abhijeet-solanki.medium.com/what-will-your-plate-look-like-in-2050-f612a64a98fd)
-
 ---
 
-## 📊 GitHub Snapshot
+## 🤝 Let's connect
 
-![GitHub followers](https://img.shields.io/github/followers/Abhijeet2396?style=social)
-![GitHub stars](https://img.shields.io/github/stars/Abhijeet2396?style=social)
+I'm looking for roles where I can:
 
----
+- Put **models on edge hardware** and make them fast (inference optimization, TensorRT, quantization)
+- Build **GenAI systems** that hold up in production (agents, RAG, evals, guardrails)
+- Bridge the gap between **research prototypes** and **shipped products**
 
-## 🤝 Let’s connect
-
-I’m actively looking for roles where I can:
-
-- Build **reliable cloud platforms** (SRE / Platform / DevOps)  
-- Apply **ML & AI** to real products (robust perception, monitoring, safety, compliance)  
-- Bridge the gap between **research prototypes** and **production systems**
-
-If you’re hiring or want to collaborate, reach out anytime:
+If you're hiring or want to compare notes, reach out anytime:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Abhijeet%20Solanki-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/abhijeet-solanki)
 [![Email](https://img.shields.io/badge/Email-abhijeet.solanki%40outlook.com-D14836?style=flat&logo=microsoft-outlook&logoColor=white)](mailto:abhijeet.solanki@outlook.com)
 [![Medium](https://img.shields.io/badge/Medium-@abhijeet.solanki-000000?style=flat&logo=medium)](https://abhijeet-solanki.medium.com)
-
