@@ -47,8 +47,8 @@ If you need someone who can **ship code**, **squeeze models onto small hardware*
 
 ## 🧩 What I'm building
 
-### 🚘 [VLM Object Detection Baseline on BDD100K](https://github.com/ChiefAj23/bdd100k-vlm-baseline)
-How well do vision-language models actually *detect* in driving scenes, with zero fine-tuning? An honest, reproducible mAP benchmark for VLMs (Qwen2.5-VL) on the BDD100K dataset: Dockerized two-service pipeline, preflight checks, full metric breakdowns. Spoiler: zero-shot VLM detection is much weaker than people assume, and now there is a repeatable baseline that proves it.
+### 🚘 VLM Perception for Autonomous Driving — *paper in preparation*
+Benchmarking and stress-testing vision-language models as open-vocabulary detectors on real driving data: reproducible mAP evaluation, a Dockerized serving + eval pipeline, and safety-weighted metrics. Code and results are held back while the paper is under preparation.
 
 ### 🛑 [Adversarial Patch Removal for Stop Signs](https://github.com/ChiefAj23/qcar-patch-removal)
 A printed sticker on a stop sign can make a detector miss it in over half of frames. This generative restoration model removes the patch before detection on our QCar2 physical testbed, raising detection from **48% → 76%** with zero regressions on clean signs. Perception robustness you can bolt onto an existing stack.
