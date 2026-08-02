@@ -1,169 +1,84 @@
-<div align="center">
+### AI Engineer — edge inference and GenAI in production
 
-# 👋 Hey, I'm Abhijeet Solanki
+I make AI work where it is hardest: on edge devices with tight latency, memory, and
+power budgets, and in production where demos do not count.
 
-### AI Engineer · Edge AI + GenAI · I make models fast on small devices and useful in production
+Currently a Software Engineer at **Arctera**, shipping GenAI incident tooling on Azure
+and AKS. Based in Nashville, TN, open to relocation.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-abhijeetsolanki.com-1f6feb?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.abhijeetsolanki.com/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abhijeet-solanki)
-[![Google Scholar](https://img.shields.io/badge/Scholar-11%20Publications-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?view_op=search_authors&mauthors=Abhijeet+Solanki)
-[![Email](https://img.shields.io/badge/Email-Reach%20out-D14836?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:abhijeet.solanki@outlook.com)
+- **Edge AI** — real-time perception on NVIDIA Jetson: TensorRT, ONNX Runtime,
+  quantization, pruning. Got a deployed detector from 72% to 93% within the same
+  compute budget.
+- **GenAI in production** — LLM agents, RAG, function calling, evals and guardrails
+  on Azure OpenAI, LangChain, and vLLM.
+- **Autonomous systems** — camera and LiDAR perception that stays accurate when the
+  physical world misbehaves.
+- **Research** — 11 peer-reviewed IEEE publications, 5 first-author, including two
+  IEEE Access journal articles. Four more under review.
 
-![Profile views](https://komarev.com/ghpvc/?username=ChiefAj23&label=Profile%20views&color=1f6feb&style=flat)
+## Selected work
 
-</div>
+**[Adversarial Patch Removal for Stop Signs](https://github.com/ChiefAj23/qcar-patch-removal)**
+A printed sticker on a stop sign makes a detector miss it in over half of approach
+frames. This 3.35M-parameter dual-head U-Net erases the sticker before detection on
+our QCar2 physical testbed, taking detection from 48% to 76% with no regression on
+clean signs. Exports to ONNX and TensorRT.
 
-I like making AI work where it is hardest: on edge devices with tight latency, memory, and power budgets, and in production where demos do not count.
+**[AI Voice Compliance Auditor](https://github.com/ChiefAj23/AI-Voice-Compliance-Auditor)**
+Full-stack GenAI app that turns raw call recordings into compliance and coaching
+insights: Whisper transcription, 0-100 scoring, toxicity and missing-disclosure
+detection, alert workflows, and SHAP explainability so a reviewer can see why a call
+was flagged. FastAPI + React/TypeScript.
 
-- ⚡ Edge AI: real-time perception on **NVIDIA Jetson** (TensorRT, ONNX Runtime, quantization, pruning)
-- 🤖 GenAI: **LLM agents, RAG pipelines, function calling** running in production (Azure OpenAI, LangChain, vLLM)
-- 🚗 Autonomous systems: camera + LiDAR perception that stays accurate when the physical world misbehaves
-- 🛠 Engineering: Python, C++, C#, FastAPI, React/TS, Docker/Kubernetes, CI/CD
+**[Nashville Crime Hotspot Analysis](https://github.com/ChiefAj23/Nashville-Crime-Hotspot-Analysis-App)**
+DBSCAN clustering over Metro 911 call data, surfacing hotspots and proximity safety
+alerts through a FastAPI + React map dashboard.
 
-📍 Nashville, TN · open to relocation · **4+ years** across applied ML, backend, and platform work.
-💼 Currently: Software Engineer at **Arctera**, shipping GenAI incident tooling on Azure + AKS.
+**[gem5 Benchmark Suite](https://github.com/ChiefAj23/Gem5BenchSuite)**
+Workload benchmarking on the gem5 microarchitecture simulator.
 
----
+**Published research code** —
+[ReAL: LiDAR reflective attack detection](https://github.com/ChiefAj23/ReAL-ReflectiveAttack-Detection-Lidar)
+and [GNAP: attacking and defending facial detection on edge devices](https://github.com/ChiefAj23/GNAPing-On-the-Job),
+both IEEE SoutheastCon 2025.
 
-## ⚡ TL;DR for recruiters
+*VLM perception for autonomous driving is in progress — benchmarking vision-language
+models as open-vocabulary detectors on real driving data, with safety-weighted
+metrics. Held back pending publication.*
 
-- **11 peer-reviewed IEEE publications** (5 first-author, including **2 IEEE Access journal articles**) on robust perception and edge AI, with 4 more under review
-- Deployed real-time models on **Jetson-class hardware**: 72% → 93% detection accuracy within the same compute budget
-- Built and shipped **full-stack AI products** (FastAPI + React + ML on edge and cloud)
-- 2× **1st Place Research Awards** (ACM Mid-Southeast, TTU Research Day) + **IEEE-HKN** and **Tau Beta Pi** honors
+## Research
 
-If you need someone who can **ship code**, **squeeze models onto small hardware**, *and* **read/write papers**, that is literally my lane.
+Robustness of edge-deployed perception under physical-world attack.
 
----
+- **IEEE Access 2026** — *Blinded by the Beam: A Unified Real-Time Defense Against
+  Laser-Based Attacks on Navigational Perception of Autonomous Vehicles*
+- **IEEE Access 2025** — *Survey of Navigational Perception Sensors' Security in
+  Autonomous Vehicles*
+- **ISVLSI 2024** — *Investigate the Effects of Laser Attack on the Intelligence of
+  the AV Perception*
 
-## 🔗 Quick Links
+Full list on [Google Scholar](https://scholar.google.com/citations?view_op=search_authors&mauthors=Abhijeet+Solanki).
+Some submitted papers are not listed due to double-blind review and will appear after
+acceptance.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-abhijeetsolanki.com-000?style=flat&logo=google-chrome)](https://www.abhijeetsolanki.com/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abhijeet%20Solanki-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/abhijeet-solanki)
-[![Email](https://img.shields.io/badge/Email-abhijeet.solanki%40outlook.com-D14836?style=flat&logo=microsoft-outlook&logoColor=white)](mailto:abhijeet.solanki@outlook.com)
-[![Medium](https://img.shields.io/badge/Medium-@abhijeet.solanki-000000?style=flat&logo=medium)](https://abhijeet-solanki.medium.com)
+Two 1st Place research awards (ACM Mid-Southeast, #1 of 38; TTU Research and Inquiry
+Day, #1 of 220). IEEE-HKN and Tau Beta Pi. Reviewer for IEEE DCAS 2026.
 
----
+## Tools
 
-## 🧩 What I'm building
+**ML** — PyTorch, TensorFlow, ONNX Runtime, TensorRT, CUDA, vLLM, LangChain,
+quantization (PTQ/QAT), pruning, XAI (Grad-CAM, SHAP).
 
-### 🚘 VLM Perception for Autonomous Driving — *paper in preparation*
-Benchmarking and stress-testing vision-language models as open-vocabulary detectors on real driving data: reproducible mAP evaluation, a Dockerized serving + eval pipeline, and safety-weighted metrics. Code and results are held back while the paper is under preparation.
+**Languages and backend** — Python, C++, C#, FastAPI, React/TypeScript, .NET.
 
-### 🛑 [Adversarial Patch Removal for Stop Signs](https://github.com/ChiefAj23/qcar-patch-removal)
-A printed sticker on a stop sign can make a detector miss it in over half of frames. This generative restoration model removes the patch before detection on our QCar2 physical testbed, raising detection from **48% → 76%** with zero regressions on clean signs. Perception robustness you can bolt onto an existing stack.
+**Cloud** — Azure, AWS, Docker, Kubernetes, Terraform, GitHub Actions.
 
-### 🔊 [AI Voice Compliance Auditor](https://github.com/ChiefAj23/AI-Voice-Compliance-Auditor)
-Full-stack GenAI app (FastAPI + React/TS) that turns raw call recordings into compliance and coaching insights: 0-100 scoring, toxicity and missing-disclosure detection, intent/topic extraction, email/webhook alerts, and **SHAP explainability** so reviewers can see *why* a call was flagged.
+## Elsewhere
 
-### 🛰 Published research code
-- [ReAL: LiDAR Reflective Attack Detection](https://github.com/ChiefAj23/ReAL-ReflectiveAttack-Detection-Lidar) (IEEE SoutheastCon 2025)
-- [GNAP: Attacking and Defending Facial Detection on Edge Devices](https://github.com/ChiefAj23/GNAPing-On-the-Job) (IEEE SoutheastCon 2025)
+[abhijeetsolanki.com](https://www.abhijeetsolanki.com/) ·
+[LinkedIn](https://www.linkedin.com/in/abhijeet-solanki) ·
+[Medium](https://abhijeet-solanki.medium.com) ·
+[abhijeet.solanki@outlook.com](mailto:abhijeet.solanki@outlook.com)
 
----
-
-## 🔬 Research Overview
-
-My research puts deep learning on **resource-constrained edge hardware** and keeps it reliable in the physical world:
-
-- Real-time perception (camera, LiDAR, sensor fusion) under strict latency, memory, and power budgets
-- Robustness of edge-deployed models against real-world interference, including laser and adversarial attacks
-- Explainable AI (XAI) and uncertainty estimation for trustworthy deployment
-
-> Some submitted papers are not listed due to double-blind review and will appear after acceptance.
-
----
-
-## 🧪 Research Highlights (Selected)
-
-- **IEEE Access 2026** – *Blinded by the Beam: A Unified Real-Time Defense Against Laser-Based Attacks on Navigational Perception of Autonomous Vehicles*
-- **IEEE Access 2025** – *Survey of Navigational Perception Sensors' Security in Autonomous Vehicles*
-- **ISVLSI 2024** – *Investigate the Effects of Laser Attack on the Intelligence of the AV Perception*
-- **SoutheastCon 2025** – *ReAL: Machine Learning Detection of Reflective Attacks Against Lidarometry*
-- **SoutheastCon 2025** – *GNAPing On the Job: Attacking and Defending Facial Detection on Edge Devices*
-- **SoutheastCon 2025** – *Towards Machine Learning Based Fingerprinting of Ultrasonic Sensors*
-- **ISCAS 2025** – *Mitigation of Camouflaged Adversarial Attacks in Autonomous Vehicles: A Case Study Using CARLA Simulator*
-- **MWSCAS 2025** – *Realistic GPS Spoofing Via Customized CARLA GPS Navigation and Controller Systems*
-- **IFAC MECC 2025** – *Investigating Adversarial Image Attacks in a Sensor Fusion Framework Using a Scaled Autonomous Vehicle Testbed*
-- **FLAIRS 2025** – *Towards Trustworthy AI: Analyzing Model Uncertainty through MC Dropout and Noise Injection*
-- **CBMS 2020** – *Protecting Electronic Health Records in Transit and at Rest*
-
-Full list on [Google Scholar](https://scholar.google.com/citations?view_op=search_authors&mauthors=Abhijeet+Solanki) and my [website](https://www.abhijeetsolanki.com/).
-
----
-
-## 🏆 Achievements & Honors
-
-- 🥇 **2× 1st Place Research Awards** – ACM Mid-Southeast (#1 of 38) and TTU Research & Inquiry Day (#1 of 220)
-- 🎓 **IEEE-HKN Honor Society** (Top 10%) · **Tau Beta Pi** Engineering Honor Society
-- 📝 Reviewer, **IEEE DCAS 2026**
-
----
-
-## 🛠 Tech Stack
-
-**AI / ML**
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![ONNX](https://img.shields.io/badge/ONNX-005CED?style=flat&logo=onnx&logoColor=white)
-![TensorRT](https://img.shields.io/badge/TensorRT-76B900?style=flat&logo=nvidia&logoColor=white)
-![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat&logo=nvidia&logoColor=white)
-![NVIDIA Jetson](https://img.shields.io/badge/NVIDIA%20Jetson-76B900?style=flat&logo=nvidia&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
-![vLLM](https://img.shields.io/badge/vLLM-000000?style=flat)
-![OpenAI](https://img.shields.io/badge/Azure%20OpenAI-412991?style=flat&logo=openai&logoColor=white)
-
-Quantization (PTQ/QAT) · pruning · edge inference · RAG · function calling · agents · XAI (Grad-CAM, SHAP) · anomaly detection
-
-**Languages & Backend**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet&logoColor=white)
-
-**Cloud & DevOps**
-
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
-
----
-
-## 📊 GitHub Activity
-
-<div align="center">
-
-[![Contribution graph](https://ghchart.rshah.org/1f6feb/ChiefAj23)](https://github.com/ChiefAj23)
-
-</div>
-
----
-
-## ✍️ Selected Writing
-
-- 🧭 **Detecting the Odd One Out: A Guide to One-Class Classification**
-  👉 [Read on Medium](https://abhijeet-solanki.medium.com/detecting-the-odd-one-out-a-guide-to-one-class-classification-cf9e22ab9d4a)
-
----
-
-## 🤝 Let's connect
-
-I'm looking for roles where I can:
-
-- Put **models on edge hardware** and make them fast (inference optimization, TensorRT, quantization)
-- Build **GenAI systems** that hold up in production (agents, RAG, evals, guardrails)
-- Bridge the gap between **research prototypes** and **shipped products**
-
-If you're hiring or want to compare notes, reach out anytime:
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abhijeet%20Solanki-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/abhijeet-solanki)
-[![Email](https://img.shields.io/badge/Email-abhijeet.solanki%40outlook.com-D14836?style=flat&logo=microsoft-outlook&logoColor=white)](mailto:abhijeet.solanki@outlook.com)
-[![Medium](https://img.shields.io/badge/Medium-@abhijeet.solanki-000000?style=flat&logo=medium)](https://abhijeet-solanki.medium.com)
+I am looking for roles putting models on edge hardware and making them fast, or
+building GenAI systems that hold up in production. Happy to compare notes either way.
