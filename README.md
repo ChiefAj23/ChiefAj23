@@ -42,8 +42,8 @@ adversarial patches, laser attacks, sensor spoofing.
 </tr>
 </table>
 
-**11 peer-reviewed IEEE publications**, 5 first-author, including two IEEE Access journal
-articles. Four more under review.
+**12 peer-reviewed publications**, 5 first-author, including two IEEE Access journal
+articles and ACM/IEEE SEC 2026. Three more under review.
 
 ---
 
@@ -90,10 +90,16 @@ facial detection on edge devices. Both IEEE SoutheastCon 2025.
 
 ## Research
 
-Robustness of edge-deployed perception under physical-world attack.
+Robustness of edge-deployed perception under physical-world attack, and compressing
+models small enough to run on it.
+
+> **Just accepted** — *CAFE: Compressed Architecture for Edge-Deployed Facial Expression
+> Recognition in Ambient Invisible Intelligence* at **ACM/IEEE SEC 2026**, the Eleventh
+> ACM/IEEE Symposium on Edge Computing.
 
 | Venue | Paper |
 |---|---|
+| **ACM/IEEE SEC 2026** | CAFE: Compressed Architecture for Edge-Deployed Facial Expression Recognition in Ambient Invisible Intelligence |
 | **IEEE Access 2026** | Blinded by the Beam: A Unified Real-Time Defense Against Laser-Based Attacks on Navigational Perception of Autonomous Vehicles |
 | **IEEE Access 2025** | Survey of Navigational Perception Sensors' Security in Autonomous Vehicles |
 | **ISVLSI 2024** | Investigate the Effects of Laser Attack on the Intelligence of the AV Perception |
