@@ -57,6 +57,8 @@ face detector plus an independent emotion classifier — compressed to run in ne
 where standard pruners fail, and an 88-configuration sweep across pruning ratios and precisions
 is measured on both a desktop GPU and the Orin Nano.
 
+<img src="assets/cafe-tradeoff.jpg" alt="All 88 pipeline configurations plotted as model size against end-to-end latency on a Jetson Orin Nano, with the P0-FP32 baseline and the chosen P10-FP16 configuration marked" width="100%">
+
 | On a Jetson Orin Nano @ 15 W | Dense baseline | Compressed |
 |---|---|---|
 | Combined model size | 17.020 MB | **8.025 MB** — 2.12× smaller |
@@ -72,6 +74,17 @@ Full-stack GenAI app that turns raw call recordings into compliance and coaching
 Whisper transcription, 0–100 scoring, toxicity and missing-disclosure detection, alert
 workflows, and SHAP explainability so a reviewer can see *why* a call was flagged.
 FastAPI + React/TypeScript.
+
+<img src="assets/voice-auditor.jpg" alt="Mel spectrogram of an example call with the matched keyword rule and the 0 to 100 compliance score" width="100%">
+
+### 🧪 [Prooftrace](https://abhijeetsolanki.com/prooftrace)
+
+An agent that reads the acceptance criteria out of a user story, drives a real browser to check
+each one, and emits reusable Gherkin features and Playwright specs the team can rerun. The run
+below proves 8 of 8 criteria in 29.7 s for $0.028 of model spend, and the same recipe replays
+without a model for free. Source is private, available on request.
+
+<img src="assets/prooftrace.jpg" alt="Prooftrace run view: step timeline, per-criterion verification with evidence, and the generated feature, steps, page-object and spec files" width="100%">
 
 ### 📍 [Nashville Crime Hotspot Analysis](https://github.com/ChiefAj23/Nashville-Crime-Hotspot-Analysis-App)
 
@@ -126,13 +139,13 @@ Day (#1 of 220) · IEEE-HKN and Tau Beta Pi · Reviewer, IEEE DCAS 2026
 **Machine learning**
 
 <p>
-<img src="https://img.shields.io/badge/PyTorch-0D1B2A?style=flat-square&logo=pytorch&logoColor=2DD4BF">
-<img src="https://img.shields.io/badge/TensorRT-0D1B2A?style=flat-square&logo=nvidia&logoColor=2DD4BF">
-<img src="https://img.shields.io/badge/ONNX%20Runtime-0D1B2A?style=flat-square&logo=onnx&logoColor=2DD4BF">
-<img src="https://img.shields.io/badge/CUDA-0D1B2A?style=flat-square&logo=nvidia&logoColor=2DD4BF">
-<img src="https://img.shields.io/badge/Jetson-0D1B2A?style=flat-square&logo=nvidia&logoColor=2DD4BF">
-<img src="https://img.shields.io/badge/vLLM-0D1B2A?style=flat-square&logoColor=2DD4BF">
-<img src="https://img.shields.io/badge/LangChain-0D1B2A?style=flat-square&logo=langchain&logoColor=2DD4BF">
+<img src="https://img.shields.io/badge/PyTorch-0D1B2A?style=flat-square&logo=pytorch&logoColor=2DD4BF" alt="PyTorch">
+<img src="https://img.shields.io/badge/TensorRT-0D1B2A?style=flat-square&logo=nvidia&logoColor=2DD4BF" alt="TensorRT">
+<img src="https://img.shields.io/badge/ONNX%20Runtime-0D1B2A?style=flat-square&logo=onnx&logoColor=2DD4BF" alt="ONNX Runtime">
+<img src="https://img.shields.io/badge/CUDA-0D1B2A?style=flat-square&logo=nvidia&logoColor=2DD4BF" alt="CUDA">
+<img src="https://img.shields.io/badge/Jetson-0D1B2A?style=flat-square&logo=nvidia&logoColor=2DD4BF" alt="Jetson">
+<img src="https://img.shields.io/badge/vLLM-0D1B2A?style=flat-square&logoColor=2DD4BF" alt="vLLM">
+<img src="https://img.shields.io/badge/LangChain-0D1B2A?style=flat-square&logo=langchain&logoColor=2DD4BF" alt="LangChain">
 </p>
 
 Quantization (PTQ/QAT) · pruning · edge inference · RAG · agents · XAI (Grad-CAM, SHAP)
@@ -140,22 +153,22 @@ Quantization (PTQ/QAT) · pruning · edge inference · RAG · agents · XAI (Gra
 **Languages and backend**
 
 <p>
-<img src="https://img.shields.io/badge/Python-0D1B2A?style=flat-square&logo=python&logoColor=2DD4BF">
-<img src="https://img.shields.io/badge/C++-0D1B2A?style=flat-square&logo=cplusplus&logoColor=2DD4BF">
-<img src="https://img.shields.io/badge/C%23-0D1B2A?style=flat-square&logo=dotnet&logoColor=2DD4BF">
-<img src="https://img.shields.io/badge/FastAPI-0D1B2A?style=flat-square&logo=fastapi&logoColor=2DD4BF">
-<img src="https://img.shields.io/badge/React-0D1B2A?style=flat-square&logo=react&logoColor=2DD4BF">
-<img src="https://img.shields.io/badge/TypeScript-0D1B2A?style=flat-square&logo=typescript&logoColor=2DD4BF">
+<img src="https://img.shields.io/badge/Python-0D1B2A?style=flat-square&logo=python&logoColor=2DD4BF" alt="Python">
+<img src="https://img.shields.io/badge/C++-0D1B2A?style=flat-square&logo=cplusplus&logoColor=2DD4BF" alt="C++">
+<img src="https://img.shields.io/badge/C%23-0D1B2A?style=flat-square&logo=dotnet&logoColor=2DD4BF" alt="C#">
+<img src="https://img.shields.io/badge/FastAPI-0D1B2A?style=flat-square&logo=fastapi&logoColor=2DD4BF" alt="FastAPI">
+<img src="https://img.shields.io/badge/React-0D1B2A?style=flat-square&logo=react&logoColor=2DD4BF" alt="React">
+<img src="https://img.shields.io/badge/TypeScript-0D1B2A?style=flat-square&logo=typescript&logoColor=2DD4BF" alt="TypeScript">
 </p>
 
 **Cloud and infrastructure**
 
 <p>
-<img src="https://img.shields.io/badge/Azure-0D1B2A?style=flat-square&logoColor=2DD4BF">
-<img src="https://img.shields.io/badge/AWS-0D1B2A?style=flat-square&logoColor=2DD4BF">
-<img src="https://img.shields.io/badge/Docker-0D1B2A?style=flat-square&logo=docker&logoColor=2DD4BF">
-<img src="https://img.shields.io/badge/Kubernetes-0D1B2A?style=flat-square&logo=kubernetes&logoColor=2DD4BF">
-<img src="https://img.shields.io/badge/Terraform-0D1B2A?style=flat-square&logo=terraform&logoColor=2DD4BF">
+<img src="https://img.shields.io/badge/Azure-0D1B2A?style=flat-square&logoColor=2DD4BF" alt="Azure">
+<img src="https://img.shields.io/badge/AWS-0D1B2A?style=flat-square&logoColor=2DD4BF" alt="AWS">
+<img src="https://img.shields.io/badge/Docker-0D1B2A?style=flat-square&logo=docker&logoColor=2DD4BF" alt="Docker">
+<img src="https://img.shields.io/badge/Kubernetes-0D1B2A?style=flat-square&logo=kubernetes&logoColor=2DD4BF" alt="Kubernetes">
+<img src="https://img.shields.io/badge/Terraform-0D1B2A?style=flat-square&logo=terraform&logoColor=2DD4BF" alt="Terraform">
 </p>
 
 ---
