@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://www.abhijeetsolanki.com/"><img src="https://img.shields.io/badge/Portfolio-0D1B2A?style=for-the-badge&logo=googlechrome&logoColor=2DD4BF" alt="Portfolio"></a>
   <a href="https://www.linkedin.com/in/abhijeet-solanki"><img src="https://img.shields.io/badge/LinkedIn-0D1B2A?style=for-the-badge&logoColor=2DD4BF" alt="LinkedIn"></a>
-  <a href="https://scholar.google.com/citations?view_op=search_authors&mauthors=Abhijeet+Solanki"><img src="https://img.shields.io/badge/Scholar-0D1B2A?style=for-the-badge&logo=googlescholar&logoColor=2DD4BF" alt="Google Scholar"></a>
+  <a href="https://scholar.google.com/citations?user=YsxSYwgAAAAJ"><img src="https://img.shields.io/badge/Scholar-0D1B2A?style=for-the-badge&logo=googlescholar&logoColor=2DD4BF" alt="Google Scholar"></a>
   <a href="mailto:abhijeet.solanki@outlook.com"><img src="https://img.shields.io/badge/Email-0D1B2A?style=for-the-badge&logo=maildotru&logoColor=2DD4BF" alt="Email"></a>
 </p>
 
@@ -100,7 +100,9 @@ Workload benchmarking on the gem5 microarchitecture simulator.
 [**ReAL**](https://github.com/ChiefAj23/ReAL-ReflectiveAttack-Detection-Lidar) — machine
 learning detection of reflective attacks against LiDAR odometry ·
 [**GNAP**](https://github.com/ChiefAj23/GNAPing-On-the-Job) — attacking and defending
-facial detection on edge devices. Both IEEE SoutheastCon 2025.
+facial detection on edge devices. Both IEEE SoutheastCon 2025
+([ReAL paper](https://doi.org/10.1109/SoutheastCon56624.2025.10971487) ·
+[GNAP paper](https://doi.org/10.1109/SoutheastCon56624.2025.10971676)).
 
 > *Two more lines of work are held back pending publication: adversarial patch removal for
 > physical stop-sign attacks on a QCar2 testbed, and VLM perception for autonomous driving —
@@ -121,11 +123,11 @@ models small enough to run on it.
 | Venue | Paper |
 |---|---|
 | **ACM/IEEE SEC 2026** | CAFE: Compressed Architecture for Edge-Deployed Facial Expression Recognition in Ambient Invisible Intelligence |
-| **IEEE Access 2026** | Blinded by the Beam: A Unified Real-Time Defense Against Laser-Based Attacks on Navigational Perception of Autonomous Vehicles |
-| **IEEE Access 2025** | Survey of Navigational Perception Sensors' Security in Autonomous Vehicles |
-| **ISVLSI 2024** | Investigate the Effects of Laser Attack on the Intelligence of the AV Perception |
+| **IEEE Access 2026** | [Blinded by the Beam: A Unified Real-Time Defense Against Laser-Based Attacks on Navigational Perception of Autonomous Vehicles](https://doi.org/10.1109/ACCESS.2026.3681208) |
+| **IEEE Access 2025** | [Survey of Navigational Perception Sensors' Security in Autonomous Vehicles](https://doi.org/10.1109/ACCESS.2025.3578891) |
+| **ISVLSI 2024** | [Investigate the Effects of Laser Attack on Intelligence of the AV Perception](https://doi.org/10.1109/ISVLSI61997.2024.00152) |
 
-Full list on [Google Scholar](https://scholar.google.com/citations?view_op=search_authors&mauthors=Abhijeet+Solanki).
+Full list on [Google Scholar](https://scholar.google.com/citations?user=YsxSYwgAAAAJ).
 Some submitted papers are not listed due to double-blind review and will appear after
 acceptance.
 
