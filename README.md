@@ -59,7 +59,7 @@ is measured on both a desktop GPU and the Orin Nano.
 
 | On a Jetson Orin Nano @ 15 W | Dense baseline | Compressed |
 |---|---|---|
-| Combined model size | 17.02 MB | **8.03 MB** — 2.12× smaller |
+| Combined model size | 17.020 MB | **8.025 MB** — 2.12× smaller |
 | End-to-end latency | 228.4 ms | **68.6 ms** — 3.33× faster (≈4.4 → ≈15 FPS) |
 | Detector mAP50-95 | 0.5038 | 0.4895 — 97.2% retained |
 
