@@ -49,15 +49,22 @@ articles and ACM/IEEE SEC 2026. Three more under review.
 
 ## Selected work
 
-### 🛑 [Adversarial Patch Removal for Stop Signs](https://github.com/ChiefAj23/qcar-patch-removal)
+### 🧠 [CAFE — Compressed Facial Expression Recognition for the Edge](https://github.com/ChiefAj23/CAFE-SEC-2026)
 
-A printed sticker on a stop sign makes a detector miss it in over half of approach frames.
-This 3.35M-parameter dual-head U-Net erases the sticker before detection on our QCar2
-physical testbed, taking detection from **48% → 76%** with no regression on clean signs.
-The mask head means the model can only alter pixels it flags as patch — do-no-harm by
-construction. Exports directly to ONNX and TensorRT FP16.
+**Artifact for our ACM/IEEE SEC 2026 paper.** A two-stage, fully decoupled YOLOv12n pipeline —
+face detector plus an independent emotion classifier — compressed to run in near real time on a
+15 W NVIDIA Jetson Orin Nano. Topological model surgery makes YOLOv12n structurally prunable
+where standard pruners fail, and an 88-configuration sweep across pruning ratios and precisions
+is measured on both a desktop GPU and the Orin Nano.
 
-<img src="assets/patch-removal-architecture.png" alt="Dual-head U-Net architecture with identity bypass" width="100%">
+| On a Jetson Orin Nano @ 15 W | Dense baseline | Compressed |
+|---|---|---|
+| Combined model size | 17.02 MB | **8.03 MB** — 2.12× smaller |
+| End-to-end latency | 228.4 ms | **68.6 ms** — 3.33× faster (≈4.4 → ≈15 FPS) |
+| Detector mAP50-95 | 0.5038 | 0.4895 — 97.2% retained |
+
+Reference implementation, compressed weights, the annotated multi-face stress set, the EDUS
+scoring metric, and the full measurement matrices for both platforms.
 
 ### 🔊 [AI Voice Compliance Auditor](https://github.com/ChiefAj23/AI-Voice-Compliance-Auditor)
 
@@ -82,9 +89,10 @@ learning detection of reflective attacks against LiDAR odometry ·
 [**GNAP**](https://github.com/ChiefAj23/GNAPing-On-the-Job) — attacking and defending
 facial detection on edge devices. Both IEEE SoutheastCon 2025.
 
-> *VLM perception for autonomous driving is in progress — benchmarking vision-language
-> models as open-vocabulary detectors on real driving data, with safety-weighted metrics.
-> Held back pending publication.*
+> *Two more lines of work are held back pending publication: adversarial patch removal for
+> physical stop-sign attacks on a QCar2 testbed, and VLM perception for autonomous driving —
+> benchmarking vision-language models as open-vocabulary detectors on real driving data with
+> safety-weighted metrics.*
 
 ---
 
